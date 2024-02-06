@@ -16,7 +16,7 @@
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Hole</th>
-                    <?php for ($i = 1; $i <= 18; $i++) { ?>
+                    <?php for ($i = 1; $i <= 9; $i++) { ?>
                         <th scope="col"><?php echo $i; ?></th>
                     <?php } ?>
                     <th scope="col">OUT</th>
@@ -46,7 +46,7 @@
                         echo '<td>' . $row['id'] . '</td>';
                         echo '<td>' . $row['holeName'] . '</td>';
                        
-                        for ($i = 1; $i <= 18; $i++) {
+                        for ($i = 1; $i <= 9; $i++) {
                             echo '<td>' . $row[$i] . '</td>';
                         }
                         echo '<td>' . $row['s_out'] . '</td>'; 
