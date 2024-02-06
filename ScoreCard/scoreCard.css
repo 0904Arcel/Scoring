@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.containar{
+   border: 1px solid rgb(83, 83, 83);
+   border-radius: 5px;
+    position: relative;
+    width: 95%;
+    height: 95vh;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.containar #tb1{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    
+}
+th, td{
+    font-size: 13px;
+}
